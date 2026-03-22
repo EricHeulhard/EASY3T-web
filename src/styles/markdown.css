@@ -1,0 +1,91 @@
+/* markdown.css - style global pour ReactMarkdown + KaTeX */
+
+/* Conteneur principal du Markdown */
+.markdown {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto 20px auto; /* centré horizontalement */
+  padding: 0 10px;
+  max-width: 800px; /* limite la largeur des lignes */
+}
+
+/* Titres */
+.markdown h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  color: #1a237e;
+}
+.markdown h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5em;
+  color: #283593;
+}
+.markdown h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  color: #303f9f;
+}
+.markdown h4, .markdown h5, .markdown h6 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: #3f51b5;
+}
+
+/* Paragraphes */
+.markdown p {
+  margin-bottom: 1em;
+}
+
+/* Listes */
+.markdown ul, .markdown ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+.markdown li {
+  margin-bottom: 0.5em;
+}
+
+/* Liens */
+.markdown a {
+  color: #1e88e5;
+  text-decoration: none;
+}
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+.markdown img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Bloc de code */
+.markdown pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+/* Inline code */
+.markdown code {
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Formules KaTeX */
+.markdown .katex {
+  font-size: 1.1em;
+  color: #c62828;
+}
+
+/* Formules en block */
+.markdown .katex-display {
+  margin: 1em 0;
+}

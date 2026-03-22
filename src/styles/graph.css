@@ -1,0 +1,13 @@
+/* Container général pour les graphiques */
+.graph-container {
+  max-width: 700px;
+  margin: 20px auto;
+  height: 300px; /* taille par défaut du graphique */
+}
+
+/* Titre du graphique */
+.graph-container canvas {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
